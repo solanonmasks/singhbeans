@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Singh Beans Café — Surrey, BC | Coffee, Indus Chai Latte &amp; Pastries</title>
+  <meta name="description" content="Singh Beans Café in Surrey, BC. Small-batch coffee from a family-owned roaster: espresso, cold brew, Indus chai-spiced latte and pastries.">
+  <link rel="icon" href="assets/logo.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Local SEO info for Google. TBC: update the street address and
+       phone number here AND in the page below so they match exactly. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Singh Beans Café",
+    "image": "assets/founders-counter.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Street address TBC",
+      "addressLocality": "Surrey",
+      "addressRegion": "BC",
+      "addressCountry": "CA"
+    },
+    "telephone": "+1-604-555-0142",
+    "servesCuisine": "Coffee",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "07:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "16:00"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a class="brand" href="index.html" aria-label="Singh Beans Coffee home">
+        <img src="assets/logo.jpg" alt="Singh Beans Coffee logo" width="52" height="52">
+        <span>Singh Beans</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main">
+        <a href="cafe.html" aria-current="page">Café</a>
+        <a href="index.html#shop">Shop</a>
+        <a href="index.html#cart-booking">Coffee Cart</a>
+        <a href="index.html#wholesale">Wholesale</a>
+        <a href="index.html#story">Our Story</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="icon-btn" href="https://www.singhbeans.com/cart" aria-label="Cart">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-badge">0</span>
+        </a>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="container mobile-nav" id="mobile-nav" aria-label="Mobile">
+      <a href="cafe.html" aria-current="page">Café</a>
+      <a href="index.html#shop">Shop</a>
+      <a href="index.html#cart-booking">Coffee Cart</a>
+      <a href="index.html#wholesale">Wholesale</a>
+      <a href="index.html#story">Our Story</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= CAFÉ HERO ================= -->
+    <!-- TBC: street address, phone number and hours -->
+    <section class="cafe-hero">
+      <div class="cafe-hero__photo">
+        <!-- Swap for café interior/exterior photos when available -->
+        <img src="assets/founders-counter.webp" alt="The Singh Beans team behind their wooden coffee counter">
+      </div>
+      <div class="cafe-hero__info">
+        <div class="cafe-hero__heading">
+          <span class="chip-open">Now open</span>
+          <h1 class="display">Singh Beans Café, Surrey</h1>
+        </div>
+        <div class="cafe-details">
+          <div>
+            <span class="eyebrow">Address</span>
+            <address><strong>Street address TBC</strong><br>Surrey, BC</address>
+            <a class="phone" href="tel:+16045550142">(604) 555-0142</a>
+          </div>
+          <div>
+            <span class="eyebrow">Hours</span>
+            <dl class="hours">
+              <dt>Mon–Fri</dt><dd>7am – 5pm</dd>
+              <dt>Sat–Sun</dt><dd>8am – 4pm</dd>
+            </dl>
+          </div>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="#map">Get Directions</a>
+          <a class="btn btn--secondary" href="tel:+16045550142">Call the café</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MENU ================= -->
+    <!-- All items and prices below are PLACEHOLDERS — confirm with the café -->
+    <section class="container menu">
+      <div class="menu__head">
+        <h2 class="display menu__title">On the menu</h2>
+        <p>A taste of what's behind the counter. Oat, soy and almond milk at no extra charge.</p>
+      </div>
+
+      <div class="signature">
+        <div class="signature__copy">
+          <span class="signature__chip">Signature</span>
+          <h3>Indus Chai-Spiced Latte</h3>
+          <p>Our Indus espresso with house masala chai syrup and steamed milk. Dates, pepper, warmth. The one everyone orders twice.</p>
+          <p class="price">$6.50</p>
+        </div>
+        <div class="signature__photo">
+          <img src="assets/indus.webp" alt="A bag of Indus roast" loading="lazy">
+        </div>
+      </div>
+
+      <div class="menu__grid">
+        <div class="menu-card">
+          <h3>Espresso</h3>
+          <ul>
+            <li><span>Espresso</span><span>$3.75</span></li>
+            <li><span>Cortado</span><span>$4.50</span></li>
+            <li><span>Flat white</span><span>$5.00</span></li>
+            <li><span>Latte</span><span>$5.50</span></li>
+            <li><span>Americano</span><span>$4.00</span></li>
+          </ul>
+        </div>
+        <div class="menu-card menu-card--teal">
+          <h3>Cold Brew</h3>
+          <ul>
+            <li><span>Cold brew, black</span><span>$5.00</span></li>
+            <li><span>Cold brew + milk</span><span>$5.50</span></li>
+            <li><span>Iced Indus latte</span><span>$6.75</span></li>
+          </ul>
+        </div>
+        <div class="menu-card">
+          <h3>Pastries</h3>
+          <ul>
+            <li><span>Butter croissant</span><span>$4.25</span></li>
+            <li><span>Cardamom bun</span><span>$4.75</span></li>
+            <li><span>Banana bread</span><span>$4.00</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PHOTO STRIP ================= -->
+    <section class="photo-strip" aria-label="Singh Beans around town">
+      <div><img src="assets/mug.webp" alt="Morning coffee in a Singh Beans mug" loading="lazy" style="object-position:32% 40%"></div>
+      <div><img src="assets/event-tent.webp" alt="Serving at a community event" loading="lazy" style="object-position:45% 40%"></div>
+      <div><img src="assets/spotted-red.webp" alt="A Singh Beans sticker spotted on a street box" loading="lazy" style="object-position:50% 55%"></div>
+      <div><img src="assets/spotted-green.webp" alt="A Singh Beans sticker spotted overseas" loading="lazy" style="object-position:65% 55%"></div>
+    </section>
+
+    <!-- ================= FIND US ================= -->
+    <section class="container find-us" id="map">
+      <div class="find-us__info">
+        <h2>Find us</h2>
+        <address>
+          <strong>Singh Beans Café</strong><br>
+          Street address TBC<br>
+          Surrey, BC<br>
+          <a href="tel:+16045550142">(604) 555-0142</a>
+        </address>
+        <p class="note">Street parking out front. Bike rack by the door.</p>
+        <!-- TBC: once the address is confirmed, put it in this link -->
+        <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&amp;query=Singh+Beans+Cafe+Surrey+BC" target="_blank" rel="noopener">Open in Maps</a>
+      </div>
+      <div class="map-panel">
+        <!-- TBC: replace this placeholder with the Google Maps embed
+             (Google Maps → Share → Embed a map → copy the <iframe>) -->
+        <div class="map-placeholder">Map coming soon — we'll add it once the address is confirmed.</div>
+      </div>
+    </section>
+
+    <!-- ================= TAKE BEANS HOME ================= -->
+    <section class="take-home">
+      <div class="container take-home__inner">
+        <div class="take-home__text">
+          <h2 class="display">Liked it? Take it home.</h2>
+          <p>Every bean we pour at the counter is for sale online — Indus included.</p>
+        </div>
+        <a class="btn btn--primary btn--large on-dark" href="index.html#indus">Order beans to take home</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__top">
+        <div class="footer-brand">
+          <img src="assets/logo.jpg" alt="Singh Beans Coffee" width="96" height="96" loading="lazy">
+          <div class="social">
+            <a href="https://instagram.com/singhbeans" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.facebook.com/singhbeans/" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+        <nav class="footer-links" aria-label="Help">
+          <a href="https://www.singhbeans.com/faq">FAQ</a>
+          <a href="https://www.singhbeans.com/shipping-policy">Shipping policy</a>
+          <a href="https://www.singhbeans.com/contact-us">Contact us</a>
+          <a href="https://www.singhbeans.com/brew-guides">Brew guides</a>
+        </nav>
+        <a class="uk-pill" href="https://singhbeans.co.uk/">In the UK? Shop our UK site</a>
+      </div>
+      <div class="legal">
+        <span>© 2026 Singh Beans Ltd.</span>
+        <a href="https://www.singhbeans.com/privacy-policy">Privacy</a>
+        <a href="https://www.singhbeans.com/terms-of-services">Terms of service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
