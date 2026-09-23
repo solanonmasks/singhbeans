@@ -13,7 +13,7 @@ Double-click `index.html` to open it in your browser. That's it.
 | `index.html` | Homepage |
 | `cafe.html` | Café landing page |
 | `css/styles.css` | All the styling. Brand colours are at the top. |
-| `js/main.js` | Mobile menu, newsletter form check, demo cart counter |
+| `js/main.js` | Mobile menu, newsletter form check |
 | `assets/` | Logo and photos |
 | `Singh Beans Coffee website mockup.zip` | The original design handoff, kept for reference |
 
@@ -24,7 +24,7 @@ Double-click `index.html` to open it in your browser. That's it.
 - **Menu items and prices** in `cafe.html` are placeholders.
 - **Google Map**: in `cafe.html`, replace the `map-placeholder` div with the embed `<iframe>` from Google Maps.
 - **Newsletter**: the form checks the email and shows a thank-you message, but it **doesn't save the email anywhere yet**. It needs to be connected to an email service (Mailchimp, Klaviyo, etc.).
-- **"Order Indus" button**: it's a demo that only bumps the cart number. It should point at the real Indus product page.
+- **Cart badge** in the header always shows 0. It can't read the real Squarespace cart, so it could be removed or wired up later.
 - **Logo**: ask for an SVG version for sharper display.
 
 ## Publishing

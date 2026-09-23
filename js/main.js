@@ -21,22 +21,6 @@ if (header && menuButton) {
   });
 }
 
-// ---------- Cart counter (DEMO ONLY) ----------
-// The real shop/cart still lives on Squarespace. This just shows the
-// intended behaviour: "Order Indus" bumps the badge in the header.
-// Replace with a real add-to-cart link/API when the shop is connected.
-const cartBadge = document.querySelector('.cart-badge');
-const orderIndusButton = document.querySelector('#order-indus');
-let cartCount = 0;
-
-if (cartBadge && orderIndusButton) {
-  orderIndusButton.addEventListener('click', () => {
-    cartCount += 1;
-    cartBadge.textContent = cartCount;
-    orderIndusButton.textContent = 'Added — order another';
-  });
-}
-
 // ---------- Newsletter sign-up ----------
 // NOTE: this only checks the email looks valid and shows a thank-you
 // message. It does NOT save the email anywhere yet — connect it to your
